@@ -1,6 +1,7 @@
 from manim import *
 from typing import Tuple
 import numpy as np
+import os
 
 SQUARE_Z = 0
 HIGHLIGHT_Z = 1
