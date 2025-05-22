@@ -8,7 +8,7 @@ class Chess(Scene):
         board.move_to(ORIGIN)
         self.add(board)
 
-        fade_out, movement = board.move_piece(0, 0, 1, 1)
+        fade_out, movement = board.move_piece(0, 0, 1, 1) #board.move_piece(y1, x1, y2, x2) measured from the top-left
         if fade_out is not None:
             self.play(fade_out)
             self.wait()
